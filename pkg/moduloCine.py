@@ -7,6 +7,6 @@ def menu():
     print ("\t5 - salir")
 
 def pelicula(cantidad, valor, tipo):
-    print("Pelicula de ", tipo," -- ",cantidad,"Entradas -- Total a cancelar: $", valor *cantidad)	    		        
+    print(f"Pelicula de tipo {tipo} -- {cantidad} Entradas -- Total a cancelar: $", valor *cantidad)	    		        
     input("\npulsa una tecla para continuar")
     return
