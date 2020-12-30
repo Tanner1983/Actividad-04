@@ -2,6 +2,8 @@ a=0
 frase = input("Ingrese una frase: ")
 letrita= input("\nIngrese letra a buscar: ")
 
+print (frase.replace(' ', '')) #Reemplaza los espacios en blanco
+
 for letra in frase:
     if letra == letrita:
         a+=1
