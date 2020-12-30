@@ -1,7 +1,10 @@
+import os
 import pkg.moduloBebida as b
 
 while True:
+    os.system ("cls")
     b.menu()
+    
     opcionMenu = input("inserte un numero correspondiente a su bebida >> ")
     if opcionMenu == "1":
         print ("Ingrese cantidad de bebidas")

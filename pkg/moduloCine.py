@@ -1,4 +1,7 @@
-def menu():    
+import os
+
+def menu(): 
+    
     print ("Selecciona una opción")
     print ("\t1 - Estreno ($4.200)")
     print ("\t2 - Infantil ($2.500)")

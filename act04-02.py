@@ -1,6 +1,8 @@
 import pkg.moduloCine as cine
+import os
 
 while True:
+    os.system ("cls")
     cine.menu()
     opcionMenu = input("inserta un numero valor >> ")
     
