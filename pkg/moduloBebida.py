@@ -6,6 +6,6 @@ def menu():
     print ("\t0 - salir")
 
 def bebida(cantidad, bebida):
-    print("Se entregan ",cantidad," bebidas Marca ", bebida," -- Total a cancelar: $", 400 *cantidad)	    		        
+    print(f"Se entregan {cantidad} bebidas Marca {bebida} -- Total a cancelar: $", 400 *cantidad)	    		        
     input("\npulsa una tecla para continuar")
     return
